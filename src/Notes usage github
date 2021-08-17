@@ -1,0 +1,16 @@
+
+Crétaion d'un nouveau dépot ppour nouveau projet :
+- Se placer dans le dossier que l'on souhaite cloner. (cd dossier/ou/tu/as/ton/code)
+- git init
+- git remote add origin https://github.com/kokolkow/monNouveauDepot
+- git add .
+- git commit -m "Mon premier commit"
+- git push -u origin master
+
+normalement quand tu créés un dépôt sur GitHub tu es redirigé vers une adresse, tu peux prendre cette adresse pour le git remote add
+Et après quand tu veux envoyer des modifications, c'est juste
+
+En fin de séance de travail :
+- git add .
+- git commit -m "Mon message"
+- git push
